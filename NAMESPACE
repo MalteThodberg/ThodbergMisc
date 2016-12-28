@@ -2,4 +2,7 @@
 
 export(collections)
 export(create_Rprofile)
+export(insertAssignment)
+export(insertPipe)
+export(insertReverseAssignment)
 export(silent_library)

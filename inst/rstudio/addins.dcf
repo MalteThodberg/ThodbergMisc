@@ -1,0 +1,14 @@
+Name: Insert %>%
+Description: Inserts `%>%` at the cursor position.
+Binding: insertPipe
+Interactive: false
+
+Name: Insert <-
+Description: Inserts `<-` at the cursor position.
+Binding: insertAssignment
+Interactive: false
+
+Name: Insert ->
+Description: Inserts `->` at the cursor position.
+Binding: insertReverseAssignment
+Interactive: false
