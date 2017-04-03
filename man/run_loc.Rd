@@ -19,4 +19,3 @@ This function detects via username whether the script is run from a server or lo
 This function basically returns the mountpoint string if the user (as detected by Sys.info) is not servername.
 This is useful when constructing file paths, since the same code will still get correct files if mounted via sshfs.
 }
-

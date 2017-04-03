@@ -15,4 +15,3 @@ Load packages without any info returned
 \details{
 Uses invisible() and supressPackageStartMessages() to silently load the packages.
 }
-

@@ -8,6 +8,7 @@
 #' @param mountpoint Path to sshfs mountpoint.
 #'
 #' @return Appropriate prefix for file locations on server.
+#' @export
 run_loc <- function(servername="nzl922", mountpoint="~/server"){
 	# Determine the user name
 	user_name <- Sys.info()[["user"]]

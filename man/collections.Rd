@@ -15,4 +15,3 @@ Nothing, packages are silenty loaded.
 \description{
 Load a collection of packages.
 }
-

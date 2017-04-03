@@ -12,4 +12,3 @@ package_collections
 Various collections of useful R-packages
 }
 \keyword{datasets}
-
