@@ -6,7 +6,7 @@
 #' @export
 create_Rprofile <- function(){
 	# Files
-	template_fname <- file.path(find.package("coRe"), "extdata/template.R")
+	template_fname <- file.path(find.package("ThodbergMisc"), "extdata/template.R")
 	to_fname <- file.path("~/.Rprofile")
 
 	# Copy file as safely as possibly
