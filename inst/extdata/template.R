@@ -17,6 +17,9 @@ options(scipen=10)
 # Only print 1000 lines, to avoid crashing terminal
 options(max.print = 1000)
 
+# Default package locations
+# Set this in the .Renviron file
+
 #======================
 # Attempt to color terminal or add RStudio features
 #======================
@@ -27,10 +30,8 @@ options(max.print = 1000)
 			require("manipulate")
 		}else if(Sys.getenv("TERM") == "xterm-256color"){
 			require("colorout")
-			require("setwidth")
 		}else if(Sys.getenv("TERM") == "xterm"){
 			require("colorout")
-			require("setwidth")
 		}
 	}
 }

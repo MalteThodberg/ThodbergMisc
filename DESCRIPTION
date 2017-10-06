@@ -1,7 +1,7 @@
 Package: ThodbergMisc
 Type: Package
 Title: Utility Functions and Package Collections
-Version: 0.1.0
+Version: 0.1.1
 Author: Malte Thodberg
 Maintainer: Malte Thodberg <maltethodberg@gmail.com>
 Description: Small collection of utility functions, enviroment management, package collections and R-studio addins used by Malte Thodberg.
