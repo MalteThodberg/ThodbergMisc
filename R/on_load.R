@@ -1,5 +1,5 @@
 .onAttach <- function(...) {
-	packageStartupMessage("Disabling stringsAsFactor, disabling workspace saving & installing Bioconductor...")
+	packageStartupMessage("Disabling stringsAsFactor, disabling workspace saving...")
 
 	# Disable stringsAsFactors
 	options(stringsAsFactors = FALSE)
@@ -8,5 +8,5 @@
 	formals(q) <- list(save="no")
 
 	# Update repository manager
-	source("http://bioconductor.org/biocLite.R")
+	# source("http://bioconductor.org/biocLite.R")
 }

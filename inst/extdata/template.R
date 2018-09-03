@@ -27,7 +27,6 @@ options(max.print = 1000)
 	if(interactive()){
 		if(Sys.getenv("RSTUDIO") == 1){
 			require("rstudioapi")
-			require("manipulate")
 		}else if(Sys.getenv("TERM") == "xterm-256color"){
 			require("colorout")
 		}else if(Sys.getenv("TERM") == "xterm"){
