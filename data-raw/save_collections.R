@@ -1,7 +1,7 @@
 # Define
 package_collections <- list(Performance=c("parallel", "matrixStats", "BiocParallel"),
 														Plotting=c("grid", "gridExtra", "RColorBrewer", "VennDiagram", "pheatmap", "wesanderson", "viridis"),
-														ggplot=c("GGally", "ggrepel", "ggthemes", "ggforce", "ggstance", "ggpmisc", "ggfortify", "ggmosaic", "ggpubr", "ggalt", "ggbeeswarm", "ggalluvial"),
+														ggplot=c("GGally", "ggrepel", "ggthemes", "ggforce", "ggstance", "ggpmisc", "ggfortify", "ggmosaic", "ggpubr", "ggbeeswarm", "ggalluvial"),
 														Hadley=c("magrittr", "glue", "broom", "modelr"),
 														DE=c("limma", "edgeR", "DEXSeq", "DESeq2", "sva"),
 														Genomics=c("GenomicRanges", "rtracklayer", "SummarizedExperiment", "InteractionSet"),
