@@ -1,0 +1,58 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ThodbergMisc
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+ThodbergMisc stores various things I use all the time:
+
+- Disables `stringsAsFactors` and saving workspace by default.
+- Useful and sorted collections of CRAN and Bioconductor packages
+- Template .Rprofile 
+- A few useful Rstudio addins.
+
+## Installation
+
+`ThodbergMisc` will only live on github:
+``` r
+# install.packages("devtools")
+devtools::install_github("MalteThodberg/ThodbergMisc")
+```
+
+To install all packages:
+
+``` r
+# Install installers
+install.packages(c("devtools", "BiocManager"))
+
+# Install from  github
+devtools::install_github("maltethodberg/ThodbergMisc")
+devtools::install_github("jalvesaq/colorout")
+
+# Install all collections
+install.packages(unlist(ThodbergMisc::package_collections))
+BiocManager::install(unlist(ThodbergMisc::package_collections))
+install.packages("tidyverse)
+```
+If you need the .Rprofile, look at `create_Rprofile`
+
+## Package collections
+
+```{r example}
+library(ThodbergMisc)
+package_collections
+```
