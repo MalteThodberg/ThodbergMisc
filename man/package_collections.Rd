@@ -9,6 +9,6 @@
 package_collections
 }
 \description{
-Various collections of useful R-packages
+Various collections of useful R-packages.
 }
 \keyword{datasets}
