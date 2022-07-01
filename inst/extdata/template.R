@@ -23,14 +23,14 @@ options(max.print = 1000)
 #======================
 # Attempt to color terminal or add RStudio features
 #======================
-.First <- function() {
-	if(interactive()){
-		if(Sys.getenv("RSTUDIO") == 1){
-			require("rstudioapi")
-		}else if(Sys.getenv("TERM") == "xterm-256color"){
-			require("colorout")
-		}else if(Sys.getenv("TERM") == "xterm"){
-			require("colorout")
-		}
-	}
-}
+# .First <- function() {
+# 	if(interactive()){
+# 		if(Sys.getenv("RSTUDIO") == 1){
+# 			require("rstudioapi")
+# 		}else if(Sys.getenv("TERM") == "xterm-256color"){
+# 			require("colorout")
+# 		}else if(Sys.getenv("TERM") == "xterm"){
+# 			require("colorout")
+# 		}
+# 	}
+# }

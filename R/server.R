@@ -1,20 +1,20 @@
 #' Detect whether the script is run locally or on server
 #'
-#' This function detects via username whether the script is run from a server or locally with the server system mounted.
-#' This function basically returns the mountpoint string if the user (as detected by Sys.info) is not servername.
+#' This function detects via nodename whether the script is run from a server or locally with the server system mounted.
+#' This function basically returns the mountpoint string if the user (as detected by Sys.info) is not a server.
 #' This is useful when constructing file paths, since the same code will still get correct files if mounted via sshfs.
 #'
-#' @param servername username on server.
+#' @param server username on server.
 #' @param mountpoint Path to sshfs mountpoint.
 #'
 #' @return Appropriate prefix for file locations on server.
 #' @export
-run_loc <- function(servername="nzl922", mountpoint="~/server"){
+mount <- function(server=c("hulk", "porus01"), mountpoint="~/porus"){
 	# Determine the user name
-	user_name <- Sys.info()[["user"]]
+	node_name <- Sys.info()[["nodename"]]
 
 	# Pick the appropriate filesystem location
-	if(user_name == servername){
+	if(node_name %in% server){
 		o <- file.path("")
 	}
 	else{

@@ -21,10 +21,10 @@ collections <- function(x){
 	# Prechecks
 	stopifnot(is.character(x))
 	stopifnot(length(x) == 1)
-	stopifnot(x %in% names(package_collections))
+	stopifnot(x %in% names(ThodbergMisc::package_collections))
 
 	# Retrieve packages
-	y <- package_collections[[x]]
+	y <- ThodbergMisc::package_collections[[x]]
 
 	# To be loaded
 	z <- y[!paste0("package:", y) %in% search()]

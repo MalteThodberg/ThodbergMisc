@@ -4,15 +4,14 @@
 # ThodbergMisc
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 ThodbergMisc stores various things I use all the time:
 
-  - Disables `stringsAsFactors` and saving workspace by default.
-  - Useful and sorted collections of CRAN and Bioconductor packages
-  - Template .Rprofile
-  - A few useful Rstudio addins.
+-   Useful and sorted collections of CRAN and Bioconductor packages
+-   Template .Rprofile
+-   A few useful Rstudio addins.
+-   Small useful R functions.
 
 ## Installation
 
@@ -31,7 +30,6 @@ install.packages(c("devtools", "BiocManager"))
 
 # Install from  github
 devtools::install_github("maltethodberg/ThodbergMisc")
-devtools::install_github("jalvesaq/colorout")
 
 # Install all collections
 install.packages(unlist(ThodbergMisc::package_collections))
@@ -45,22 +43,25 @@ If you need the .Rprofile, look at `create_Rprofile`
 
 ``` r
 library(ThodbergMisc)
-#> Disabling stringsAsFactor, disabling workspace saving...
 package_collections
-#> $Annotation
-#> [1] "AnnotationDbi"   "GenomicFeatures"
-#> 
 #> $DE
 #> [1] "limma"  "edgeR"  "DEXSeq" "DESeq2" "sva"   
+#> 
+#> $DelayedArray
+#>  [1] "DelayedArray"       "DelayedMatrixStats" "HDF5Array"         
+#>  [4] "TileDBArray"        "batchelor"          "BiocSingular"      
+#>  [7] "BiocNeighbors"      "ResidualMatrix"     "ScaledMatrix"      
+#> [10] "DelayedRandomArray" "bluster"           
 #> 
 #> $Development
 #>  [1] "usethis"    "devtools"   "pryr"       "testthat"   "assertthat"
 #>  [6] "covr"       "knitr"      "roxygen2"   "profvis"    "styler"    
-#> [11] "remedy"     "snakecase"  "here"      
+#> [11] "snakecase"  "here"       "checkmate"  "BiocStyle" 
 #> 
 #> $Genomics
 #> [1] "GenomicRanges"        "rtracklayer"          "SummarizedExperiment"
-#> [4] "InteractionSet"      
+#> [4] "InteractionSet"       "CAGEfightR"           "AnnotationDbi"       
+#> [7] "GenomicFeatures"      "GenomeInfoDb"        
 #> 
 #> $ggplot
 #>  [1] "GGally"     "ggrepel"    "ggthemes"   "ggforce"    "ggstance"  
@@ -70,6 +71,10 @@ package_collections
 #> $Hadley
 #> [1] "magrittr" "glue"     "broom"    "modelr"   "janitor"  "skimr"   
 #> 
+#> $Ordination
+#> [1] "FactoMineR" "factoextra" "vegan"      "ade4"       "made4"     
+#> [6] "omicade4"   "uwot"      
+#> 
 #> $Performance
 #> [1] "parallel"     "matrixStats"  "BiocParallel"
 #> 
@@ -77,9 +82,14 @@ package_collections
 #> [1] "grid"         "gridExtra"    "RColorBrewer" "VennDiagram"  "pheatmap"    
 #> [6] "wesanderson"  "viridis"     
 #> 
-#> $Sequences
-#> [1] "BSgenome"   "Biostrings"
+#> $RStudio
+#> [1] "remedy"     "rstudioapi" "manipulate"
 #> 
-#> $Terminal
-#> [1] "colorout"   "rstudioapi" "manipulate"
+#> $Sequences
+#> [1] "BSgenome"    "Biostrings"  "TFBSTools"   "motifmatchr"
+#> 
+#> $SingleCell
+#> [1] "Seurat"               "Signac"               "SingleCellExperiment"
+#> [4] "scuttle"              "scran"                "scater"              
+#> [7] "mumosa"               "DropletUtils"
 ```

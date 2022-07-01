@@ -4,7 +4,9 @@
 \name{package_collections}
 \alias{package_collections}
 \title{Collections of R-packages}
-\format{A named list with package names}
+\format{
+A named list with package names
+}
 \usage{
 package_collections
 }
