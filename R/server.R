@@ -9,7 +9,7 @@
 #'
 #' @return Appropriate prefix for file locations on server.
 #' @export
-mount <- function(server=c("hulk", "porus01"), mountpoint="~/porus"){
+mount <- function(server=c("hulk", "porus01"), mountpoint="~/CBMR"){
 	# Determine the user name
 	node_name <- Sys.info()[["nodename"]]
 

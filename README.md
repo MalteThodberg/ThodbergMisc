@@ -10,8 +10,8 @@ ThodbergMisc stores various things I use all the time:
 
 -   Useful and sorted collections of CRAN and Bioconductor packages
 -   Template .Rprofile
--   A few useful Rstudio addins.
--   Small useful R functions.
+-   A few useful Rstudio addins
+-   Small useful R functions
 
 ## Installation
 
@@ -56,7 +56,7 @@ package_collections
 #> $Development
 #>  [1] "usethis"    "devtools"   "pryr"       "testthat"   "assertthat"
 #>  [6] "covr"       "knitr"      "roxygen2"   "profvis"    "styler"    
-#> [11] "snakecase"  "here"       "checkmate"  "BiocStyle" 
+#> [11] "here"       "checkmate"  "BiocStyle" 
 #> 
 #> $Genomics
 #> [1] "GenomicRanges"        "rtracklayer"          "SummarizedExperiment"
@@ -69,14 +69,15 @@ package_collections
 #> [11] "ggalluvial" "ggfittext" 
 #> 
 #> $Hadley
-#> [1] "magrittr" "glue"     "broom"    "modelr"   "janitor"  "skimr"   
+#> [1] "magrittr"  "glue"      "broom"     "modelr"    "janitor"   "skimr"    
+#> [7] "snakecase"
 #> 
 #> $Ordination
 #> [1] "FactoMineR" "factoextra" "vegan"      "ade4"       "made4"     
 #> [6] "omicade4"   "uwot"      
 #> 
 #> $Performance
-#> [1] "parallel"     "matrixStats"  "BiocParallel"
+#> [1] "parallel"     "matrixStats"  "BiocParallel" "qs"           "fst"         
 #> 
 #> $Plotting
 #> [1] "grid"         "gridExtra"    "RColorBrewer" "VennDiagram"  "pheatmap"    

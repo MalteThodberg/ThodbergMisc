@@ -4,7 +4,7 @@
 \alias{mount}
 \title{Detect whether the script is run locally or on server}
 \usage{
-mount(server = c("hulk", "porus01"), mountpoint = "~/porus")
+mount(server = c("hulk", "porus01"), mountpoint = "~/CBMR")
 }
 \arguments{
 \item{server}{username on server.}
