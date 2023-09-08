@@ -8,10 +8,10 @@
 
 ThodbergMisc stores various things I use all the time:
 
--   Useful and sorted collections of CRAN and Bioconductor packages
--   Template .Rprofile
--   A few useful Rstudio addins
--   Small useful R functions
+- Useful and sorted collections of CRAN and Bioconductor packages.
+- Template .Rprofile.
+- A few useful Rstudio addins.
+- Small useful R functions.
 
 ## Installation
 
@@ -64,9 +64,9 @@ package_collections
 #> [7] "GenomicFeatures"      "GenomeInfoDb"        
 #> 
 #> $ggplot
-#>  [1] "GGally"     "ggrepel"    "ggthemes"   "ggforce"    "ggstance"  
-#>  [6] "ggpmisc"    "ggfortify"  "ggmosaic"   "ggpubr"     "ggbeeswarm"
-#> [11] "ggalluvial" "ggfittext" 
+#>  [1] "patchwork"  "GGally"     "ggrepel"    "ggthemes"   "ggforce"   
+#>  [6] "ggstance"   "ggpmisc"    "ggfortify"  "ggmosaic"   "ggpubr"    
+#> [11] "ggbeeswarm" "ggalluvial" "ggfittext" 
 #> 
 #> $Hadley
 #> [1] "magrittr"  "glue"      "broom"     "modelr"    "janitor"   "skimr"    

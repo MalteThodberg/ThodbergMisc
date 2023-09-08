@@ -20,10 +20,10 @@ knitr::opts_chunk$set(
 
 ThodbergMisc stores various things I use all the time:
 
-- Useful and sorted collections of CRAN and Bioconductor packages
-- Template .Rprofile
-- A few useful Rstudio addins
-- Small useful R functions
+- Useful and sorted collections of CRAN and Bioconductor packages.
+- Template .Rprofile.
+- A few useful Rstudio addins.
+- Small useful R functions.
 
 ## Installation
 
