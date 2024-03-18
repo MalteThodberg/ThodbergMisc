@@ -4,12 +4,12 @@
 #' This function basically returns the mountpoint string if the user (as detected by Sys.info) is not a server.
 #' This is useful when constructing file paths, since the same code will still get correct files if mounted via sshfs.
 #'
-#' @param server username on server.
+#' @param server server nodename
 #' @param mountpoint Path to sshfs mountpoint.
 #'
 #' @return Appropriate prefix for file locations on server.
 #' @export
-mount <- function(server=c("hulk", "porus01"), mountpoint="~/CBMR"){
+mount <- function(server=c("esrumcont01fl.unicph.domain", "esrumhead01fl.unicph.domain"), mountpoint="~/esrum"){
 	# Determine the user name
 	node_name <- Sys.info()[["nodename"]]
 

@@ -4,10 +4,13 @@
 \alias{mount}
 \title{Detect whether the script is run locally or on server}
 \usage{
-mount(server = c("hulk", "porus01"), mountpoint = "~/CBMR")
+mount(
+  server = c("esrumcont01fl.unicph.domain", "esrumhead01fl.unicph.domain"),
+  mountpoint = "~/esrum"
+)
 }
 \arguments{
-\item{server}{username on server.}
+\item{server}{server nodename}
 
 \item{mountpoint}{Path to sshfs mountpoint.}
 }
