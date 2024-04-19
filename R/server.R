@@ -9,7 +9,7 @@
 #'
 #' @return Appropriate prefix for file locations on server.
 #' @export
-mount <- function(server=c("esrumcont01fl.unicph.domain", "esrumhead01fl.unicph.domain"), mountpoint="~/esrum"){
+mount <- function(server=c("esrumweb01fl.unicph.domain", "esrumhead01fl.unicph.domain"), mountpoint="~/esrum"){
 	# Determine the user name
 	node_name <- Sys.info()[["nodename"]]
 

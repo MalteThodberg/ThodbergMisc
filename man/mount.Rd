@@ -5,7 +5,7 @@
 \title{Detect whether the script is run locally or on server}
 \usage{
 mount(
-  server = c("esrumcont01fl.unicph.domain", "esrumhead01fl.unicph.domain"),
+  server = c("esrumweb01fl.unicph.domain", "esrumhead01fl.unicph.domain"),
   mountpoint = "~/esrum"
 )
 }
